@@ -1,10 +1,16 @@
 .page-content {
+  padding: 60px 30px;
 }
 
 .banner-intro {
-  background-color: blanchedalmond;
-  width: 100%;
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/Фон.webp") center / cover no-repeat,
+    #cccccc;
+  border-radius: 20px;
+  /* width: 100%; */
   padding: 60px 20px;
+  width: 1220px;
 }
 
 .banner-intro__title {
@@ -21,6 +27,10 @@
 
 .banner-intro__info {
   width: 600px;
+  margin: 0 auto 85px;
+  border-radius: 20px 120px 20px 120px;
+  filter: drop-shadow(5px 5px 10px rgba(172, 224, 249, 0.6));
+  overflow: hidden;
 }
 
 .banner-intro__img {
@@ -78,6 +88,13 @@
   font-size: 26px;
   line-height: 1.24;
   color: #444444;
+  display: block;
+  width: 376px;
+  padding: 21px;
+  text-align: center;
+  margin: 0 auto 48px;
+  background: linear-gradient(270deg, #fff1eb 0.07%, #ace0f9 96.24%);
+  border-radius: 30px;
 }
 
 .banner-intro__note {
@@ -89,4 +106,6 @@
   line-height: 1.2;
   text-align: center;
   color: #ffffff;
+  width: 530px;
+  margin: 0 auto;
 }
