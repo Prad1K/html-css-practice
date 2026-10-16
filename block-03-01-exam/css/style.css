@@ -1,0 +1,62 @@
+.document-card {
+  width: 585px;
+  background-color: #77896b;
+  padding: 40px 40px 30px;
+  border-top-right-radius: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.document-card__name {
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.document-card__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.document-card__date {
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin-bottom: 30px;
+}
+
+.document-card__link {
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+.document-card__size {
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 15px;
+}
+
+.document-card--accent {
+  background-color: #e8e4dd;
+  color: #000000;
+}
+
+.document-card--accent .document-card__link {
+  color: #000000;
+}
+
+.document-card--accent .document-card__date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.document-card--accent .document-card__size {
+  color: rgba(0, 0, 0, 0.5);
+}
