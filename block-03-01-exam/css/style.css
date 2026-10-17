@@ -34,7 +34,7 @@
 .document-card__link {
   font-style: normal;
   font-weight: 400;
-  text-decoration-line: underline;
+  text-decoration: underline;
 }
 
 .document-card__size {
