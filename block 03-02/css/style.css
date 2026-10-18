@@ -2,9 +2,9 @@
   min-height: 600px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5)),
-    url("/img/Фоновое изображение.webp") center / cover no-repeat,
+    url("/img/banner.webp") center / cover no-repeat,
     #cccccc;
-  padding: 40px 0 40px;
+  padding: 40px 0;
 }
 .banner__content {
   text-align: center;
@@ -19,7 +19,7 @@
 }
 .banner__text {
   text-transform: uppercase;
-  margin: 0 auto 30px;
+  margin: 0 0 30px;
 }
 .banner__label {
   font-weight: 300;
@@ -45,18 +45,55 @@
   border-radius: 60px;
 }
 .advantages-list {
+  margin: 120px auto;
 }
-.advantages-list__item {
-}
+
 .card {
+  max-width: 800px;
 }
 .card__name {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .card__img {
+  margin-bottom: 20px;
+  border-top-right-radius: 100px;
 }
 .card__descr {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.47;
+  max-width: 680px;
+  margin-bottom: 30px;
 }
 .card__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  border: 1px solid #ffffff;
+  border-radius: 60px;
+  display: block;
+  width: 145px;
+  padding: 14px;
+  text-align: center;
 }
 .card--right {
+  margin-left: auto;
+  text-align: right;
+}
+
+.card--right .card__img {
+  border-radius: 100px 0 0;
+}
+
+.card--right .card__descr {
+  margin-left: auto;
+}
+
+.card--right .card__link {
+  margin-left: auto;
 }
