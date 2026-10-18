@@ -2,7 +2,7 @@
   min-height: 600px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5)),
-    url("/img/banner.webp") center / cover no-repeat,
+    url("../img/banner.webp") center / cover no-repeat,
     #cccccc;
   padding: 40px 0;
 }
