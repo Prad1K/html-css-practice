@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.card {
+  width: 500px;
+  margin: 40px auto 60px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+  background-color: #8c9e80;
+  padding: 30px 0;
+  border-radius: 20px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  padding: 0 20px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+.text-title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  margin: 0 auto 20px;
+  text-transform: uppercase;
+  max-width: 400px;
+  text-align: center;
+}
+
+.picture {
+  height: 240px;
+  width: 500px;
+  margin: 0 0 20px 0;
+}
+
+.text-descr {
+  max-width: 410px;
+  text-align: center;
+  margin: 0 auto 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  display: block;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 14px;
+  width: 145px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 60px;
+  display: block;
+}
