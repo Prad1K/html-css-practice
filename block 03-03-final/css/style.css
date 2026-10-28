@@ -2,53 +2,53 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
 }
 
-.card {
-  width: 500px;
-  margin: 40px auto 60px;
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+.banner {
+  height: 700px;
+  background-color: #cccccc;
+  background-image: url(/img/banner.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner__content {
+  padding: 163px 0 0 120px;
+}
+
+.banner__card {
+  max-width: 620px;
   background-color: #8c9e80;
-  padding: 30px 0;
+  padding: 40px 60px 30px;
   border-radius: 20px;
 }
 
-.text {
+.banner__text {
   font-size: 15px;
   line-height: 22px;
   font-weight: 300;
-  padding: 0 20px;
   text-align: center;
-  margin: 0 0 10px 0;
-  display: block;
+  padding-bottom: 15px;
 }
 
-.text-title {
+.banner__title {
   font-weight: 300;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  margin: 0 auto 20px;
   text-transform: uppercase;
-  max-width: 400px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
-.picture {
-  height: 240px;
-  width: 500px;
-  margin: 0 0 20px 0;
-}
-
-.text-descr {
-  max-width: 410px;
+.banner__descr {
   text-align: center;
-  margin: 0 auto 20px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
-  display: block;
+  padding-bottom: 30px;
 }
 
-.link {
+.banner__link {
   font-size: 14px;
   line-height: 20px;
   padding: 14px;
