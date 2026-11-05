@@ -1,0 +1,27 @@
+.page-content {
+  max-width: 1280px;
+  padding: 70px 40px;
+  margin: 0 auto;
+}
+
+.page-content__title {
+  /* Интернет магазин комнатных растений "Зеленый Пассажир” */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #475009;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-content__text {
+  /* Вместе с нами растет жизнь */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: #475009;
+  margin-bottom: 50px;
+}

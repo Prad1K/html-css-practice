@@ -1,0 +1,7 @@
+.products {
+  display: flex;
+}
+
+.products__item {
+  width: 33.33%;
+}

@@ -3,4 +3,6 @@
 @import "global/fonts.css";
 
 /* Blocks */
+@import "blocks/page-content.css";
 @import "blocks/product-card.css";
+@import "blocks/products.css";
