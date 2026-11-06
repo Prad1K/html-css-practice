@@ -2,8 +2,17 @@
   display: flex;
   gap: 70px 30px;
   flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.products--flat {
+  gap: 70px;
 }
 
 .products__item {
   width: calc(33.33% - 20px);
+}
+
+.products--flat .products__item {
+  width: 100%;
 }
