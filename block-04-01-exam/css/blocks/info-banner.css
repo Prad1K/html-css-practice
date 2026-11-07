@@ -1,0 +1,11 @@
+.info-banner {
+  background-image: url(../../images/banner-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0px 60px;
+  padding: 85px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
