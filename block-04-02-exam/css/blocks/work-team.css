@@ -1,0 +1,9 @@
+.work-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.work-team__item {
+  width: 600px;
+}

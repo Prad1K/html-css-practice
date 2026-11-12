@@ -1,0 +1,77 @@
+.person-card {
+  background: #f2f3ee;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.person-card__post {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 5px;
+}
+
+.person-card__name {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1d252d;
+  margin-bottom: 20px;
+}
+
+.person-card__wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.person-card__img {
+  border-radius: 12px;
+}
+
+.person-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.person-card__quote {
+  width: 290px;
+}
+
+.person-card__descr {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #1d252d;
+}
+
+.person-card__services {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #1d252d;
+  text-align: right;
+}
+
+.person-card__links {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.person-card__contact {
+  width: 140px;
+  border-radius: 40px;
+  padding: 7px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #1d252d;
+  text-align: center;
+}
+
+.person-card__contact--bg {
+  background: #d6d2c4;
+}
