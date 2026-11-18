@@ -4,7 +4,14 @@
   gap: 30px;
 }
 
+.news-list--row .news-list__item {
+  width: 100%;
+}
+
 .news-list__item {
   width: 600px;
   display: flex;
 }
+
+
+
