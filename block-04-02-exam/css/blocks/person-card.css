@@ -2,6 +2,9 @@
   background: #f2f3ee;
   border-radius: 20px;
   padding: 30px;
+  height: 463px;
+  display: flex;
+  flex-direction: column;
 }
 
 .person-card__post {
@@ -24,6 +27,7 @@
 .person-card__wrapper {
   display: flex;
   gap: 30px;
+  flex-grow: 1;
 }
 
 .person-card__img {
@@ -74,4 +78,9 @@
 
 .person-card__contact--bg {
   background: #d6d2c4;
+}
+
+.person-card--center .person-card__services {
+  width: 270px;
+  margin-left: auto;
 }
