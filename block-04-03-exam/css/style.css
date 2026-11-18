@@ -3,5 +3,6 @@
 @import "global/container.css";
 @import "blocks/header.css";
 @import "blocks/page-content.css";
+@import "blocks/news-list.css";
 @import "blocks/card.css";
 @import "blocks/footer.css";
